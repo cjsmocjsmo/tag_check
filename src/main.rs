@@ -18,7 +18,7 @@ struct MediaFile {
 }
 
 fn main() {
-    let dir_path = "/home/pipi/Music/music/".to_string();
+    let dir_path = "/media/pinas/foo1/Music/Music".to_string();
 
     let media_files = find_media(&dir_path);
 
