@@ -69,9 +69,9 @@ fn compare_media_files(file1: &MediaFile, file2: &MediaFile) {
         println!("Track differs: {} != {}", file1.track, file2.track);
         println!("{}", file1.file);
     }
-    if file1.disk != file2.disk {
-        println!("Disk differs: {} != {}", file1.disk, file2.disk);
-    }
+    // if file1.disk != file2.disk {
+    //     println!("Disk differs: {} != {}", file1.disk, file2.disk);
+    // }
     if file1.ext != file2.ext {
         println!("Extension differs: {} != {}", file1.ext, file2.ext);
     }
