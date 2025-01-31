@@ -1,0 +1,9 @@
+[package]
+name = "tag_check"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+id3 = "1.16.1"
+regex = "1.11.1"
+walkdir = "2.5.0"
